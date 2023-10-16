@@ -1,0 +1,230 @@
+body {
+    background-color: #d24e01;
+    margin: 0px;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-buttons{
+    margin-left: auto;
+}
+
+.logo {
+    text-align: left;
+    padding:0px;
+    margin: 10px;
+    font-family: 'Great Vibes';                          
+    font-size: 70px;
+    color: #d24e01;
+    
+}
+
+.logosubtext {
+    margin-left: 5px;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    color: #728C69;                                      
+    font-size: 10px;
+}
+
+.page1 {
+    background-color:#ffead1;
+}
+
+.mainmenu{
+    list-style-type: none;
+    
+    padding: 40px 40px;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    color:#728C69;
+}
+
+.mainmenu li{
+    font-size: 15px;
+    display: inline;
+    margin: 10px;
+    
+}
+.mainmenu a{
+    text-decoration: none;
+    color: #728C69;
+}
+.mainmenu li:hover{
+    cursor: pointer;
+}
+
+.socials-container a{
+    text-decoration: none;
+    color: #d24e01;
+}
+
+
+.image-row {
+    display: flex;
+  }
+  
+  .preview-column {
+    flex: 33.33%;
+    padding: 50px;
+    width: 50px;
+    font-family: 'Great Vibes';
+  }
+
+.preview-column img {
+    width: 400px;
+}
+
+.columns h1 {
+    color: #d24e01;
+    text-align: center;
+    padding: 50px 50px;
+    font: bold  50px 'Futura', sans-serif;
+    
+
+}
+
+.contentbar {
+    padding: 100px 100px;
+    text-align: center;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+   
+    color: #728C69;
+    background-color: white;
+}
+
+
+.icons li {
+    list-style-type: none;
+    padding: 50px 50px;
+    display: inline;
+}
+
+
+.icons li img {
+    width: 100px;
+}
+
+.filler-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+    background-color: #ffead1;
+
+}
+
+
+.filler-section .text {
+    align-content: left;
+    padding: 100px 100px;
+    font: italic bold 40px "Poppins", serif;
+    color:#d24e01;
+    }
+
+
+.filler-section img {
+    width: 500px;
+    padding-right: 100px;
+}
+
+.filler-section p{
+    color:#728C69;
+    align-content: left;
+    font-size: 30px;
+}
+
+.body {
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center;
+    color: #d24e01;
+    list-style: none;
+                                                
+}
+
+.subheading {
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center;
+    color: #728C69;
+    list-style: none;
+
+}
+
+
+
+.about-bar {
+    padding: 100px 130px;
+    text-align: left;
+    font: italic bold 20px "Poppins", serif;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    align-items: center;
+    color:#728C69;
+    background-color: #ffff;
+
+}
+
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.centered {
+    position: absolute;
+    top: 150px;
+    right: 90px;
+    color:#d24e01;
+    font: bold  30px 'Futura', sans-serif;
+}   
+
+.exhibit img {
+    width: 500px;
+}
+
+.pageheading {
+    color: #d24e01;
+    text-align: center;
+    padding: 50px 50px;
+    font: bold  50px 'Futura', sans-serif;
+    border: 1px;
+}
+
+.banner-image{
+    position: absolute;
+    z-index: -10000;
+}
+
+.menu2 {
+    width: 100%;
+    background-image: url("./images/about11.png");
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-buttons2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.email {
+    margin-block: 40px;
+}
+
+.socials-container {
+    display: flex;
+    gap: 40px;
+    padding: 50px 0px;
+
+}
+
+.socials-container div {
+    margin-inline: auto;
+    }
